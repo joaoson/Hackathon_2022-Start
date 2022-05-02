@@ -86,13 +86,14 @@
             </p>
         </div> 
         <div class="inputcalc">
-            <input placeholder="Quantidade Mensal Investida" type="number">
-            <input placeholder="Numero de meses" type="number">
+            <input min="0" placeholder="Quantidade Mensal Investida" type="number">
+            <input min="0" placeholder="Numero de meses" type="number">
             <select name="typeofinvestiment" id="type of investiment">
                 <option value="selic">Selic</option>
                 <option value="fixa">Renda Fixa</option>
                 <option value="fundo">Fundo imobiliario</option>
             </select>
+            <button type="submit">Calcular</button>
             <p> O seu total acumulado sera de R$.</p>
         </div>    
     </main>

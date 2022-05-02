@@ -138,6 +138,7 @@ nav{
 
 .calculator p {
     font-size: 2rem;
+    padding: 3rem;
 }
 
 .inputcalc{
@@ -163,9 +164,26 @@ select{
     background-color: #cacaca;
     margin: 1rem auto;
     padding: 2rem;
+    border-radius: 20px;
 }
 
 .inputcalc p{
     font-size: 2rem;
     margin: 3rem 0;
+}
+
+.inputcalc button{
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #cacaca;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: 200ms ease-in-out;
+}
+
+.inputcalc button:hover{
+    filter: brightness(50%);
+    cursor: pointer;
 }
